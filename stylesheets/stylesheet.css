@@ -66,6 +66,7 @@ body {
 .page-container {
   background: lightgray;
   padding: 1em;
+  margin-bottom: 2em;
 }
 .page-sub-title {
   font-weight: bold;
