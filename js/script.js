@@ -124,7 +124,7 @@ function buildAndShowHomeHTML (categories) {
       html = insertProperty(html, "randomCategoryShortName", random_short_name); 
       homeHtmlToInsertIntoMainPage += html;
 
-      homeHtmlToInsertIntoMainPage += "</section>"; 
+      homeHtmlToInsertIntoMainPage += "</section>";  
 
 
       // TODO: STEP 4: Insert the the produced HTML in STEP 3 into the main page
