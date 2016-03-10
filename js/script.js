@@ -119,7 +119,7 @@ function buildAndShowHomeHTML (categories) {
       // var homeHtmlToInsertIntoMainPage = ....
       var homeHtmlToInsertIntoMainPage = "<section class='row'>";
 
-      var html = homeHtmlUrl;
+      var html = homeHtml;
       var random_short_name = chosenCategoryShortName.short_name;
       html = insertProperty(html, "randomCategoryShortName", random_short_name); 
       homeHtmlToInsertIntoMainPage += html;
